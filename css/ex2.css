@@ -1,0 +1,31 @@
+.parent {
+  background-color: #5faff5;
+  padding: 10px;
+  position: relative;
+  height: 200vh;
+}
+.child {
+  padding: 10px;
+  /*
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  */
+}
+@supports (position: sticky) {
+  .child {
+    position: sticky;
+    top: 0;
+  }
+}
+.child-one {
+  background-color: #3ed277;
+}
+.child-two {
+  background-color: #dc9f3c;
+}
+.child-three {
+  background-color: #b14aaa;
+}

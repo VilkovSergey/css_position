@@ -1,0 +1,33 @@
+body, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  height: 150px;
+  background-color: #384874;
+}
+.menu {
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  background-color: #be7c7c;
+  padding: 15px;
+}
+.menu li {
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+.menu li:last-child {
+  margin-right: 0;
+}
+.content {
+  padding-top: 80px;
+}
