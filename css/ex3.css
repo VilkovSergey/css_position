@@ -2,6 +2,11 @@ body, ul, li, h1 {
   margin: 0;
   padding: 0;
 }
+.container {
+  max-width: 640px;
+  width: 100%;
+  margin: 0 auto;
+}
 .header {
   height: 150px;
   background-color: #384874;
@@ -30,4 +35,5 @@ body, ul, li, h1 {
 }
 .content {
   padding-top: 80px;
+  height: 200vh;
 }

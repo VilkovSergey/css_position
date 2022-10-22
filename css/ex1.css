@@ -8,6 +8,8 @@
 }
 .child-one {
   background-color: #3ed277;
+  position: relative;
+  left: 15px;
 }
 .child-two {
   background-color: #dc9f3c;

@@ -8,13 +8,13 @@ z-index
 */
 .layer1 {
   /* Относительное позиционирование */
-  /* position: relative;  */
+  position: relative; 
   background: #ddd;
   height: 200px;
 }
 .layer2 {
   /* Абсолютное позиционирование */
-  /* position: absolute;  */
+  position: absolute; 
   bottom: 15px; /* Положение от нижнего края */
   right: 15px; /* Положение от правого края */
 }
