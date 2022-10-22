@@ -12,10 +12,11 @@ body, ul, li, h1 {
   background-color: #384874;
 }
 .menu {
-  position: fixed;
-  right: 0;
+  position: sticky;
   top: 0;
-  left: 0;
+  /* width: 400px;
+  left: 50%;
+  transform: translateX(-50%); */
 }
 .menu ul {
   display: flex;
@@ -34,6 +35,6 @@ body, ul, li, h1 {
   margin-right: 0;
 }
 .content {
-  padding-top: 80px;
+  /* padding-top: 80px; */
   height: 200vh;
 }

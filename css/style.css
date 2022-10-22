@@ -1,20 +1,25 @@
 /* 
 position: static, relative, absolute, fixed, sticky
+
 top
 left
 right
 bottom
+
 z-index
 */
 .layer1 {
   /* Относительное позиционирование */
   position: relative; 
+  
   background: #ddd;
   height: 200px;
 }
 .layer2 {
   /* Абсолютное позиционирование */
   position: absolute; 
-  bottom: 15px; /* Положение от нижнего края */
-  right: 15px; /* Положение от правого края */
+  /* Положение от нижнего края */
+  top: 50px; 
+  /* Положение от правого края */
+  left: 50px;
 }
